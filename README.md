@@ -19,13 +19,12 @@ If you encounter any issues or have questions, you can reach the team via:
 * Email: info@distributive.network
 * Slack: [DCP Developers Slack](https://join.slack.com/t/dcp-devs/shared_invite/zt-56v87qj7-fkqZOXFUls8rNzO4mxHaIA)
 
-## Prerequisites
+## Requirements
 
 * Node.js
-* DCP client libraries:
-```
-npm install
-```
+* npm packages:
+  * dcp-client
+  * nodeplotlib
 * DCP keystore files in the home directory:
 ```
 ~/.dcp/id.keystore
