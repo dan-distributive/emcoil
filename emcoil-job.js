@@ -64,7 +64,7 @@ async function main() {
   job.requires(['./tube-forces']);
 
   // COMPUTE GROUPS
-  job.computeGroups = [{joinKey: 'demo', joinSecret: 'dcp'}];
+  job.computeGroups = [{attachKey: 'demo', attachSecret: 'dcp'}];
 
   // JOB PUBLIC INFO
   job.public = {
